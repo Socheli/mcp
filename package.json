@@ -1,0 +1,32 @@
+{
+  "name": "@socheli/mcp",
+  "version": "0.1.0",
+  "description": "Model Context Protocol server for Socheli — let any agent run your content engine.",
+  "type": "module",
+  "bin": {
+    "socheli-mcp": "src/index.ts"
+  },
+  "dependencies": {
+    "@socheli/sdk": "^0.1.0",
+    "tsx": "^4.19.2"
+  },
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Socheli/mcp.git"
+  },
+  "homepage": "https://github.com/Socheli/mcp#readme",
+  "bugs": {
+    "url": "https://github.com/Socheli/mcp/issues"
+  },
+  "author": "Socheli <contact@socheli.com> (https://socheli.com)",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
