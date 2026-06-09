@@ -1,6 +1,6 @@
 {
   "name": "@socheli/mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Model Context Protocol server for Socheli — let any agent run your content engine.",
   "type": "module",
   "bin": {
@@ -28,5 +28,14 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "socheli",
+    "mcp",
+    "model-context-protocol",
+    "content",
+    "video",
+    "ai",
+    "agent"
+  ]
 }
